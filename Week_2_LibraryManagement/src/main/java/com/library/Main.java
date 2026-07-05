@@ -9,8 +9,6 @@ public class Main {
 
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
-
         System.out.println("Spring Context Loaded Successfully");
-
     }
 }

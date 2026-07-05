@@ -1,12 +1,18 @@
 package com.library.service;
 
+import com.library.repository.BookRepository;
+
 public class BookService {
 
-    public BookService() {
-        System.out.println("BookService Bean Created");
+    private BookRepository bookRepository;
+
+    // Setter Injection
+    public void setBookRepository(BookRepository bookRepository) {
+        this.bookRepository = bookRepository;
     }
 
-    public void displayService() {
-        System.out.println("Book Service Working");
+    public void addBook() {
+        System.out.println("BookService: Calling BookRepository...");
+        bookRepository.saveBook();
     }
 }

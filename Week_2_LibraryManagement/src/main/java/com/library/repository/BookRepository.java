@@ -6,7 +6,7 @@ public class BookRepository {
         System.out.println("BookRepository Bean Created");
     }
 
-    public void displayRepository() {
-        System.out.println("Book Repository Working");
+    public void saveBook() {
+        System.out.println("BookRepository: Book saved successfully.");
     }
 }
