@@ -1,4 +1,4 @@
-package com.cognizant.spring_learn;
+package com.cognizant.springlearn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
