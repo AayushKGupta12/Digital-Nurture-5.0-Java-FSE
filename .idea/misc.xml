@@ -6,6 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/Wek_2_LibraryManagement/pom.xml" />
         <option value="$PROJECT_DIR$/Week_2_LibraryManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/orm-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Week_3_orm-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Week_3_SpringLearn/spring-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Week_4_Microservices/account/pom.xml" />
+        <option value="$PROJECT_DIR$/Week_4_Microservices/loan/pom.xml" />
       </list>
     </option>
   </component>
