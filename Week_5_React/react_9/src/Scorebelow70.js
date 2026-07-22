@@ -1,13 +1,25 @@
 import React from "react";
 
-export default function ListofPlayers({ players }) {
+export default function Scorebelow70({ players }) {
+
+    const players70 = [];
+
+    players.map((item) => {
+
+        if (item.score < 70) {
+            players70.push(item);
+        }
+
+        return null;
+    });
 
     return (
 
         <div>
 
             {
-                players.map((item) => (
+
+                players70.map((item) => (
 
                     <div key={item.name}>
                         <li>
@@ -17,6 +29,7 @@ export default function ListofPlayers({ players }) {
                     </div>
 
                 ))
+
             }
 
         </div>
