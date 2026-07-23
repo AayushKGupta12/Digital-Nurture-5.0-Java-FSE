@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-home',

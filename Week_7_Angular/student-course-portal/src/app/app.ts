@@ -1,6 +1,11 @@
 import { Component } from '@angular/core';
 import { Header } from './components/header/header';
 import { Home } from './pages/home/home';
+imports: [
+    Header,
+    Home,
+    CourseList
+]
 
 @Component({
   selector: 'app-root',
