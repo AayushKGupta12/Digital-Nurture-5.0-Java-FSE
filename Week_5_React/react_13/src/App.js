@@ -33,19 +33,12 @@ function App() {
                 <h1>Book Details</h1>
 
                 {bookdet}
-
             </div>
-
             <div className="column">
-
                 <h1>Blog Details</h1>
-
                 {content}
-
             </div>
-
         </div>
-
     );
 
 }
