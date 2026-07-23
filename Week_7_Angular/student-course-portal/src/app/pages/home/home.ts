@@ -32,5 +32,4 @@ export class Home implements OnInit {
   ngOnDestroy(): void {
     console.log("HomeComponent destroyed");
   }
-
 }
